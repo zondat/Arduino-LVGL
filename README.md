@@ -12,9 +12,8 @@ The steps to follow:
 - Export->Export UI Files
 <img width="571" height="257" alt="Capture" src="https://github.com/user-attachments/assets/53614c63-059b-4a94-8f1c-aedb3df8042d" />
 (4) Create new project Arduino and copy-paste all ui-generated files into this folder
-(5) Finally, reference the UI in the code by:  #include "ui.h" and initiates by: ui_init()
+(5) For the default settings for LVGL, you can install the library "lvgl" in Arduino, and load its example
+<img width="1051" height="648" alt="image" src="https://github.com/user-attachments/assets/95ac0805-f19b-40c3-bdc7-fbf004d7423a" />
+<img width="567" height="106" alt="image" src="https://github.com/user-attachments/assets/299b68fb-bcae-44d7-a6be-8d17f0bdeaa8" />
 
-The result:
-<img width="2128" height="977" alt="1786724061237_194587777588188069_121543298629946553_3feac1d803ee4488e49f397aab7ba223" src="https://github.com/user-attachments/assets/a2378c45-7ffb-42b1-8ce2-37dd7c4808fb" />
-
-
+Finally, reference the UI by adding the code:  #include "ui.h" and ui_init() in the end of setup() function.
